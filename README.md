@@ -23,6 +23,7 @@ Semua kode ditulis dalam Rust dengan praktik terbaik: struktur modular, dokument
 Integrasi eksternal menggunakan Python (dwsim.py) untuk komunikasi dengan simulator DWSIM.
 
  **Komponen dan Teknologi**
+ 
 Hardware: ESP32-S3 (Edge Gateway)
 Protocol: Modbus RTU (sensor & aktuator), Serial, MQTT (cloud)
 Database: InfluxDB
@@ -31,6 +32,7 @@ Simulation Tool: DWSIM
 Backend Language: Rust
 
 **Tujuan utama proyek ini adalah agar mahasiswa mampu:**
+
 Mendesain dan memprogram ESP32-S3 sebagai edge gateway menggunakan Embedded Rust.
 Mengintegrasikan multi-sensor dan multi-aktuator berbasis Modbus RTU.
 Melakukan streaming data sensor melalui komunikasi serial ke PC dan mengintegrasikannya dengan data simulasi DWSIM.
