@@ -4,7 +4,7 @@ Dina Nur Shadrina - 2042231026
 
 Modbus RTU-Based Multi-Sensor and Multi-Actuator Integration for Distributed Control System using Embedded Rust
 
- Anggota Kelompok
+ **Anggota Kelompok**
 
 Muhammad ‘Azmilfadhil Syamsudin — NRP 2042231003
 
@@ -17,7 +17,8 @@ Proyek ini merupakan implementasi nyata sistem kontrol terdistribusi (Distribute
 Sistem ini memanfaatkan ESP32-S3 sebagai edge gateway untuk membaca dan mengontrol perangkat lapangan (sensor dan aktuator) secara real-time. Data dari edge gateway dikirim ke komputer melalui komunikasi serial, diintegrasikan dengan data simulasi proses dari DWSIM, dan selanjutnya disimpan ke dalam InfluxDB. Pada tahap backend, program berbasis Rust bertugas untuk membaca data dari database dan mendistribusikannya ke ThingsBoard Cloud, sehingga pengguna dapat memantau kondisi sistem secara real-time melalui dashboard cloud.
 
 **Spesifikasi Teknis dan Ketentuan Proyek**
- Bahasa Pemrograman
+ **Bahasa Pemrograman**
+ 
 Semua kode ditulis dalam Rust dengan praktik terbaik: struktur modular, dokumentasi fungsi, dan error handling.
 Integrasi eksternal menggunakan Python (dwsim.py) untuk komunikasi dengan simulator DWSIM.
 
